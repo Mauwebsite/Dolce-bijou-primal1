@@ -33,7 +33,7 @@ const App = () => {
         <Route path='/place-order' element={<PlaceOrder />} />
         <Route path='/orders' element={<Orders />} />
         {/* <Route path="*" element={<Home />} />  */}
-        <Route path="*" element={<Navigate to="/" />} />
+        {/* <Route path="*" element={<Navigate to="/" />} /> */}
       </Routes>
       <Footer />
       <a href="https://api.whatsapp.com/send?phone=%2B5491162000494&text=Hola Siani, vengo de ver tu sitio web!" target="_blank">
