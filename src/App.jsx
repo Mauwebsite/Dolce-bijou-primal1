@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, Navigate } from 'react-router-dom'
 import Home from './pages/Home'
 import Collection from './pages/Collection'
 import About from './pages/About'
@@ -32,6 +32,8 @@ const App = () => {
         <Route path='/login' element={<Login />} />
         <Route path='/place-order' element={<PlaceOrder />} />
         <Route path='/orders' element={<Orders />} />
+        <Route path="*" element={<Home />} /> 
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <Footer />
       <a href="https://api.whatsapp.com/send?phone=%2B5491162000494&text=Hola Siani, vengo de ver tu sitio web!" target="_blank">
