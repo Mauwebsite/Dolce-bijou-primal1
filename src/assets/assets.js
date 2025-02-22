@@ -1,60 +1,11 @@
-import p_img1 from './p_img1.png'
-import p_img2 from './p_img2.png'
-import p_img3 from './p_img3.png'
-import p_img4 from './p_img4.png'
-import p_img5 from './p_img5.png'
-import p_img6 from './p_img6.png'
-import p_img6_2 from './p_img6_2.png'
-import p_img6_3 from './p_img6_3.png'
-import p_img6_4 from './p_img6_4.png'
-import p_img7 from './p_img7.png'
-import p_img8 from './p_img8.png'
-import p_img9 from './p_img9.png'
-import p_img10 from './p_img10.png'
-import p_img11 from './p_img11.png'
-import p_img12 from './p_img12.png'
-import p_img13 from './p_img13.png'
-import p_img14 from './p_img14.png'
-import p_img15 from './p_img15.png'
-import p_img16 from './p_img16.png'
-import p_img17 from './p_img17.png'
-import p_img18 from './p_img18.png'
-import p_img19 from './p_img19.png'
-import p_img20 from './p_img20.png'
-import p_img21 from './p_img21.png'
-import p_img22 from './p_img22.png'
-import p_img23 from './p_img23.png'
-import p_img24 from './p_img24.png'
-import p_img25 from './p_img25.png'
-import p_img26 from './p_img26.png'
-import p_img27 from './p_img27.png'
-import p_img28 from './p_img28.png'
-import p_img29 from './p_img29.png'
-import p_img30 from './p_img30.png'
-import p_img31 from './p_img31.png'
-import p_img32 from './p_img32.png'
-import p_img33 from './p_img33.png'
-import p_img34 from './p_img34.png'
-import p_img35 from './p_img35.png'
-import p_img36 from './p_img36.png'
-import p_img37 from './p_img37.png'
-import p_img38 from './p_img38.png'
-import p_img39 from './p_img39.png'
-import p_img40 from './p_img40.png'
-import p_img41 from './p_img41.png'
-import p_img42 from './p_img42.png'
-import p_img43 from './p_img43.png'
-import p_img44 from './p_img44.png'
-import p_img45 from './p_img45.png'
-import p_img46 from './p_img46.png'
-import p_img47 from './p_img47.png'
-import p_img48 from './p_img48.png'
-import p_img49 from './p_img49.png'
-import p_img50 from './p_img50.png'
-import p_img51 from './p_img51.png'
-import p_img52 from './p_img52.png'
-
-
+import perla3_2 from './perla3_2.png'
+import perla3 from './perla3.png'
+import perla2 from './perla2.png'
+import perla2_2 from './perla2_2.png'
+import perla1_2 from './perla1_2.png'
+import perla1 from './perla1.png'
+import letras1 from './letras1.png' 
+import letras1_2 from './letras1_2.png'
 import logo from './db_logo1.png'
 import hero_img from './hero_img.png'
 import cart_icon from './cart_icon.png'
@@ -68,7 +19,13 @@ import star_dull_icon from './star_dull_icon.png'
 import star_icon from './star_icon.png'
 import support_img from './support_img.png'
 import menu_icon from './menu_icon.png'
-import about_img from './about_img.png'
+import argolla2 from './argolla2.png'
+import argolla2_1 from './argolla2_1.png'
+import argolla1 from './argolla1.png'
+import argolla1_2 from './argolla1_2.png'
+import pegamento_1_1 from './pegamento_1_1.png'
+import pegamento_1 from './pegamento_1.png'
+// import about_img from './about_img.png'
 import contact_img from './hero_img1.png'
 import razorpay_logo from './razorpay_logo.png'
 import stripe_logo from './stripe_logo.png'
@@ -89,135 +46,149 @@ export const assets = {
     bin_icon,
     support_img,
     menu_icon,
-    about_img,
+    argolla1,
+    argolla1_2,
+    // about_img,
     contact_img,
     razorpay_logo,
     stripe_logo,
     cross_icon,
-    wspplogo
+    wspplogo,
+    perla3,
+    perla3_2,
+    perla2,
+    perla2_2,
+    perla1_2,
+    perla1,
+    letras1,
+    letras1_2,
+    argolla2,
+    argolla2_1,
+    pegamento_1,
+    pegamento_1_1
 }
 
 export const products = [
     {
         _id: "aaaaa",
-        name: "Tanza elástica de colores",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 1000,
-        image: [p_img1],
-        category: "Hilos",
-        subCategory: "Topwear",
-        sizes: ["Color1", "Color2", "Color3"],
+        name: "Perlas de 4mm (Color natural)",
+        description: "11.000 por mayor (500 gr)",
+        price: 2000,
+        image: [perla3, perla3_2],
+        category: "Perlas",
+        subCategory: "",
+        sizes: [],
         date: 1716634345448,
         bestseller: true
     },
     {
         _id: "aaaab",
-        name: "Argolllitas para bijou",
-        description: "Medidas: 6mm , 8mm",
-        price: 10000,
-        image: [p_img2],
-        category: "Argollas",
-        subCategory: "Topwear",
-        sizes: ["6mm", "8mm"],
+        name: "Perlas de 6mm (Color natural)",
+        description: "10.000 por mayor (500 gr)",
+        price: 2000,
+        image: [perla2, perla2_2],
+        category: "Perlas",
+        subCategory: "",
+        sizes: [],
         date: 1716621345448,
         bestseller: true
     },
     {
         _id: "aaaac",
-        name: "Tanza rígida común de 0,5mm",
-        description: "Cantidad por rollo: 100 mts",
+        name: "Perlas de 10mm (Color natural",
+        description: "10.000 por mayor (500 gr)",
         price: 2000,
-        image: [p_img3],
-        category: "Tanzas",
-        subCategory: "Topwear",
+        image: [perla1_2, perla1],
+        category: "Perlas",
+        subCategory: "",
         sizes: [],
         date: 1716234545448,
         bestseller: true
     },
     {
         _id: "aaaad",
-        name: "Pulseras con letras",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 2500,
-        image: [p_img4],
-        category: "Pulseras",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "XXL"],
+        name: "Letras chatas (blancas)",
+        description: "Bolsita de 25gr",
+        price: 2000,
+        image: [letras1_2,letras1],
+        category: "Letras",
+        subCategory: "",
+        sizes: [],
         date: 1716621345448,
         bestseller: true
     },
     {
         _id: "aaaae",
-        name: "Frasco de vidrio de calavera con sorbete",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 3000,
-        image: [p_img5],
-        category: "Women",
-        subCategory: "Topwear",
-        sizes: ["M", "L", "XL"],
+        name: "Argolla con cadena reforzada (5 eslabones)",
+        description: "Promociones: 10 unidades 2000, 25 unidades 2100, 50 unidades 3300, 100 unidades 5000. Por mayor: 1000 unidades 48.000",
+        price: 1500,
+        image: [argolla2, argolla2_1],
+        category: "Argollas",
+        subCategory: "",
+        sizes: [],
         date: 1716622345448,
         bestseller: true
     },
     {
         _id: "aaaaf",
-        name: "Ojo turco de 8mm",
-        description: "20 unidades 2000, Por mayor: 15000 (500 unidades) - 30000 (1000 unidades).",
-        price: 2000,
-        image: [p_img6,p_img6_2,p_img6_3,p_img6_4],
-        category: "Ojos",
-        subCategory: "Topwear",
-        sizes: ["S", "L", "XL"],
+        name: "Silicona liquida",
+        description: "Cantidad nomral de 100 ml",
+        price: 4000,
+        image: [pegamento_1, pegamento_1_1],
+        category: "Pegamentos",
+        subCategory: "",
+        sizes: [],
         date: 1716623423448,
         bestseller: true
     },
-    {
-        _id: "aaaag",
-        name: "Argolla con cadena reforzada (5 eslabones)",
-        description: "Promociones: 10 unidades 1500, 25 unidades 2000, 50 uniades 3500",
-        price: 1500,
-        image: [p_img7],
-        category: "Argollas",
-        subCategory: "Bottomwear",
-        sizes: ["S", "L", "XL"],
-        date: 1716621542448,
-        bestseller: false
-    },
-    {
-        _id: "aaaah",
-        name: "Lentejuelas para confección de 6mm",
-        description: "Cantidad por rollo:50mts",
-        price: 5000,
-        image: [p_img8],
-        category: "Lentejuelas",
-        subCategory: "Topwear",
-        sizes: ["S", "M", "L", "XL"],
-        date: 1716622345448,
-        bestseller: false
-    },
-    {
-        _id: "aaaai",
-        name: "Perlas de 10mm",
-        description: "10000 por m ayor (500gr).",
-        price: 2000,
-        image: [p_img9],
-        category: "Perlas",
-        subCategory: "Topwear",
-        sizes: [],
-        date: 1716621235448,
-        bestseller: false
-    },
-    {
-        _id: "aaaaj",
-        name: "Cuentas plásticas facetadas AB",
-        description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-        price: 6000,
-        image: [p_img10],
-        category: "Facetados",
-        subCategory: "Bottomwear",
-        sizes: ["S", "L", "XL"],
-        date: 1716622235448,
-        bestseller: false
-    },
+    // {
+    //     _id: "aaaag",
+    //     name: "Argolla con cadena reforzada (5 eslabones)",
+    //     description: "Promociones: 10 unidades 1500, 25 unidades 2000, 50 uniades 3500",
+    //     price: 1500,
+    //     image: [p_img7],
+    //     category: "Argollas",
+    //     subCategory: "Bottomwear",
+    //     sizes: ["S", "L", "XL"],
+    //     date: 1716621542448,
+    //     bestseller: false
+    // },
+    // {
+    //     _id: "aaaah",
+    //     name: "Lentejuelas para confección de 6mm",
+    //     description: "Cantidad por rollo:50mts",
+    //     price: 5000,
+    //     image: [p_img8],
+    //     category: "Lentejuelas",
+    //     subCategory: "Topwear",
+    //     sizes: ["S", "M", "L", "XL"],
+    //     date: 1716622345448,
+    //     bestseller: false
+    // },
+    // {
+    //     _id: "aaaai",
+    //     name: "Perlas de 10mm",
+    //     description: "10000 por m ayor (500gr).",
+    //     price: 2000,
+    //     image: [p_img9],
+    //     category: "Perlas",
+    //     subCategory: "Topwear",
+    //     sizes: [],
+    //     date: 1716621235448,
+    //     bestseller: false
+    // },
+    // {
+    //     _id: "aaaaj",
+    //     name: "Cuentas plásticas facetadas AB",
+    //     description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
+    //     price: 6000,
+    //     image: [p_img10],
+    //     category: "Facetados",
+    //     subCategory: "Bottomwear",
+    //     sizes: ["S", "L", "XL"],
+    //     date: 1716622235448,
+    //     bestseller: false
+    // },
     // {
     //     _id: "aaaak",
     //     name: "Men Round Neck Pure Cotton T-shirt",
