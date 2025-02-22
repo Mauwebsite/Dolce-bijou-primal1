@@ -11,6 +11,7 @@ import Footer from './components/Footer'
 import Login from './pages/Login'
 import PlaceOrder from './pages/PlaceOrder'
 import Orders from './pages/Orders'
+import Amor from './pages/Amor'
 import SearchBar from './components/SearchBar'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -32,6 +33,7 @@ const App = () => {
           <Route path='/login' element={<Login />} />
           <Route path='/place-order' element={<PlaceOrder />} />
           <Route path='/orders' element={<Orders />} />
+          <Route path='/amor' element={<Amor />} />
           {/* <Route path="*" element={<Home />} />  */}
           {/* <Route path="*" element={<Navigate to="/" />} /> */}
         </Routes>

@@ -32,6 +32,18 @@ import stripe_logo from './stripe_logo.png'
 import cross_icon from './cross_icon.png'
 import wspplogo from './wspp-logo.png'
 
+import amor_1 from './amor_1.jpg'
+import amor_2 from './amor_2.jpg'
+import amor_3 from './amor_3.jpg'
+import amor_4 from './amor_4.jpg'
+import amor_5 from './amor_5.jpg'
+import amor_6 from './amor_6.jpg'
+import team from './team.jpg'
+import car from './car.jpg'
+import casar from './casar.png'
+import playa from './playa.jpg'
+import viaje from './viaje.jpg'
+
 export const assets = {
     logo,
     hero_img,
@@ -65,7 +77,18 @@ export const assets = {
     argolla2,
     argolla2_1,
     pegamento_1,
-    pegamento_1_1
+    pegamento_1_1,
+    amor_1,
+    amor_2,
+    amor_3,
+    amor_4,
+    amor_5,
+    amor_6,
+    team,
+    car,
+    casar,
+    playa,
+    viaje
 }
 
 export const products = [
